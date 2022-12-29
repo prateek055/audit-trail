@@ -1,0 +1,173 @@
+.p-datatable-thead{
+    background-color: aqua;
+}
+
+.p-datatable table 
+{
+    color:#141E28;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    font-size: 14px;
+}
+  
+.p-datatable .p-datatable-thead > tr > th 
+{
+    text-align: left;
+    padding: 0;
+    width: 0%;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    border-width: none;
+    font-weight: 700;
+    color: #343a40;
+    background: #76879A;
+    transition: box-shadow 0.2s;
+}
+
+.pi-sort-amount-up-alt:before 
+{
+    content: "▼";
+    color:#141E28;
+}
+
+.pi-sort-alt:before 
+{
+    content: "▼";
+    color:#536980;
+}
+
+.pi-sort-amount-down:before 
+{
+    content: "▲";
+    color:#141E28;
+}
+
+.p-datatable .p-datatable-thead > tr > th > div 
+{
+    margin-left: 20px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td 
+{
+    text-align: left;
+    border: none;
+    background-color: #141E28;
+    border-width: 0;
+    margin-left: 20px;
+    height: 5px;
+}
+
+.p-datatable .p-datatable-tbody > tr > td:first-child, 
+.p-datatable .p-datatable-thead > tr > th:first-child
+{
+    border-radius: var(--table-row-border) 0 0 var(--table-row-border);
+}
+
+.p-datatable .p-datatable-tbody > tr > td:last-child,
+.p-datatable .p-datatable-thead > tr > th:last-child
+{
+    border-radius: 0 var(--table-row-border) var(--table-row-border) 0;
+}
+
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover 
+{
+    background: #76879A;
+    color:#141E28;
+}
+
+.p-datatable .p-sortable-column:focus 
+{
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.p-datatable .p-sortable-column.p-highlight
+{
+    background: #76879A;
+    color:#141E28;
+    font-weight: bold;
+}
+
+.p-datatable .p-datatable-tbody > tr 
+{
+    background: none;
+    color: #76879A;
+    transition: box-shadow 0.2s;
+}
+
+.p-paginator 
+{
+    background: #000000;
+    color: #141E28;
+    border: none;
+    justify-content: left;
+    border-width: 0;
+    height: 60px;
+    font: 14px Muli-Regular;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.p-paginator .p-paginator-current
+{
+    flex:1;
+    justify-content: left;
+    color:var(--androLight); 
+    font-size: 14px;
+}
+
+.p-link:focus
+{
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight 
+{
+    background: #298CC8;
+    color: var(--androLight);
+    height: 30px;
+    width: 30px;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page 
+{
+    background-color: transparent;
+    border: 0 none;
+    color: var(--androLight);
+    min-width: 0;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    transition: box-shadow 0.2s;
+    border-radius: 50%;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover 
+{
+    background: #141E28;
+    color: var(--androLight);
+}
+
+.p-paginator 
+.p-paginator-first:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover, 
+.p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover 
+{
+    background: #141E28;
+    border-color: transparent;
+}
+
+.pi-angle-left:before
+{
+    color:var(--androLight)
+}
+
+.pi-angle-right:before
+{
+    color:var(--androLight)
+}
+
